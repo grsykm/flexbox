@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <style>
+    /* Hover */
+    /* .a-box {
+      height: 600px;
+      width: 600px;
+      background-color: rgb(232, 221, 196);
+      padding: 10px;
+    }
+
+    .b-box {
+      height: 400px;
+      width: 400px;
+      background-color: rgb(183, 209, 170);
+      margin: 10px;
+    }
+ /* The hover applies to a-box, the css only applies to b-box */
+    /* .a-box:hover .b-box{
+      background-color: rgb(182, 202, 223);
+      cursor: pointer;
+    } */
+    /* Hover ends */
+
+    /* nth child */
+    /* p:nth-child(2) {
+  background:rgb(178, 175, 222);
+} */
+
+    /* flex containers */
+    body {
+      font-family: 'DotGothic16', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color:rgb(89, 105, 79);
+    }
+
+    h1 {
+      position: relative;
+      margin-left: 60px;
+      margin-top: 5px;
+    }
+
+    .flex-container {
+      display: flex;
+      height: 200px;
+      background-color: rgb(232, 166, 174);
+    }
+
+    .flex-container>div {
+      text-align: center;
+      flex-grow: 1;
+      background-color: #f1f1f1;
+      margin: 5px;
+      padding: 5px;
+      line-height: 50px;
+      font-size: 30px;
+      border: 1px solid rgb(125, 88, 74);
+    }
+
+    #middle {
+      flex-grow: 3;
+    }
+
+    #right {
+      flex-grow: 5;
+    }
+
+    p {
+      font-size: 1rem;
+
+    }
+
+    .flex1 {
+      flex: 1 1 20em;
+    }
+
+    .flex2 {
+      flex: 2 2 20em;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <div class="a-box">
+    <div class="b-box"></div>
+  </div>
+  <button class="a-button">Click Me</button>
+
+  <p>The first paragraph</p>
+  <p>The second paragraph</p>
+  <p>The third paragraph</p> -->
+  <h1>FLEXBOX EXAMPLES</h1>
+
+  <div class="flex-container con1">
+    <div>1</div>
+    <div class="middle" id="middle">2 <p>This is an example of flex grow</p>
+    </div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+  <div class="flex-container con2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div style="flex-basis:300px">4 <p>This is an example of flex basis</p>
+    </div>
+  </div>
+
+  <div class="flex-container con3">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+  <div class="flex-container con4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
+    <div>13</div>
+    <div>14</div>
+    <div>15</div>
+    <div>16</div>  
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</body>
+
+</html>
